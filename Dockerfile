@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:latest
 
 RUN apk --no-cache add git python make g++ openssl wget ca-certificates \
     && update-ca-certificates \
